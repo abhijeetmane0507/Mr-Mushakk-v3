@@ -1,0 +1,19 @@
+{
+  "name": "mr-mushakk",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Mumbai Ganpati and Devi Mandal Festival Companion",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test tests/app.test.js",
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1"
+  }
+}
